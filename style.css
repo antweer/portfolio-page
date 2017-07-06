@@ -1,0 +1,326 @@
+html, body{
+  height:100%;
+}
+
+h1, h2, dt{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.row{
+  margin: 0;
+}
+
+.row1{
+  background-image:url("polybg.jpg");
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+
+.desk {
+  background-image:url("desk.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.test{
+  background: dimgrey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, dimgrey, grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, dimgrey, grey); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, dimgrey, grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgb(176, 167, 152), rgb(247, 195, 171)); /* Standard syntax */
+}
+
+.portfolio{
+  background: dimgrey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, dimgrey, grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, dimgrey, grey); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, dimgrey, grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgb(126, 133, 132), rgb(179, 160, 144)); /* Standard syntax */  
+}
+
+.timeline {
+  background: dimgrey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, dimgrey, grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, dimgrey, grey); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, dimgrey, grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, rgb(255, 210, 181), rgb(255, 215, 185)); /* Standard syntax */  
+}
+
+.fractal{
+  background: darkgrey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, lightgrey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, lightgrey); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, lightgrey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, white); /* Standard syntax */
+}
+
+hr{
+  border-color: rgb(0, 0, 0);
+  border-color: rgba(0, 0, 0, .1);
+}
+
+#aboutme p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#skills p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#skills .lead {
+  margin-bottom: 0;
+}
+
+#skills hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#skills h1 {
+  margin-bottom: 0;
+}
+
+#projects p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(239, 188, 160);
+  margin-bottom: 5px;
+  line-height: 17px;
+}
+
+#projects h1 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+#projects div .shaded {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.modtext {
+  font-size: 18px;
+}
+
+#projects a {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(239, 188, 160);
+}
+
+#projects .icons h1{
+  font-size: 30px;
+  color: rgb(229, 154, 179);
+}
+
+#projects .icons p {
+  color: rgb(229, 154, 179);
+}
+
+#timeline p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+}
+
+#timeline img {
+  max-height: 250px;
+  float: right;
+}
+
+
+.justifiedtext {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.icons h1{
+  font-size: 40px;
+}
+
+.icons div{
+  display: inline-block;
+}
+
+
+.pic{
+  height: 200px;
+  border-radius: 50%;
+}
+
+.fa-circle{
+  color: rgb(69, 96, 117);
+}
+.is-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.body-padding{
+  padding-top: 70px;
+}
+.image-smaller{
+    width:380px; /* you can use % */
+    height: auto;
+}
+.round-border{
+  border-radius: 20%;
+}
+
+.shaded{
+  background-color:rgba(0, 0, 0, .5);
+}
+.Aligner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Aligner-Carousel {
+  padding: 0;
+}
+
+.carousel {
+  max-height: 75vh;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.revflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.flip {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.projectpic{
+  max-width: 100%;
+  height: auto;
+}
+
+.Aligner2 {
+  padding: 10px;
+}
+
+.well {
+  background-color: rgb(245, 245, 245);
+  background-color: rgba(245, 245, 245, 0.15);
+  border: none;
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+.navbar{
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#nav {
+	left: 20px;
+	padding-left: 0;
+	list-style: none;
+	margin: 0;
+	position: fixed;
+	top: 20px;
+	background-color: rgba(0,0,0,.4);
+	border-radius: 5%;
+}
+
+#nav li {
+	margin-bottom: 2px;
+}
+
+#nav a {
+  background: rgb(237,237,237); /*Fallback*/
+	background: rgba(237,237,237, 0);
+	color: #ededed;
+	display: block;
+	font-size: 14px;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#nav a:hover {
+	background: rgb(255, 215, 185);
+	color: #000;
+}
+
+#nav .current a {
+  background: rgb(0,0,0); /*Fallback*/
+	background: rgba(0,0,0,.6);
+	color: rgb(255, 215, 185);
+	border-radius: 5%;
+}
+
+#nav .current a:hover {
+  background: rgb(255, 215, 185);
+	color: #000;
+	border-radius: 5%;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.typed-fade-out{
+    opacity: 0;
+    animation: 0;
+    transition: opacity .25s;
+}
