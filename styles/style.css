@@ -17,13 +17,13 @@ h1, h2, dt{
 }
 
 .row1{
-  background-image:url("polybg.jpg");
+  background-image:url("../images/polybg.jpg");
   background-size: cover;
   /*background-attachment: fixed;*/
 }
 
 .desk {
-  background-image:url("desk.jpg");
+  background-image:url("../images/desk.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +43,7 @@ h1, h2, dt{
   background: -webkit-linear-gradient(left top, dimgrey, grey); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, dimgrey, grey); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, dimgrey, grey); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, rgb(126, 133, 132), rgb(179, 160, 144)); /* Standard syntax */  
+  background: linear-gradient(to bottom right, rgb(126, 133, 132), rgb(179, 160, 144)); /* Standard syntax */
 }
 
 .timeline {
@@ -51,7 +51,7 @@ h1, h2, dt{
   background: -webkit-linear-gradient(left top, dimgrey, grey); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, dimgrey, grey); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, dimgrey, grey); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, rgb(255, 210, 181), rgb(255, 215, 185)); /* Standard syntax */  
+  background: linear-gradient(to bottom right, rgb(255, 210, 181), rgb(255, 215, 185)); /* Standard syntax */
 }
 
 .fractal{
