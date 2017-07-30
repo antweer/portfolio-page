@@ -111,6 +111,16 @@ hr{
   font-size: 18px;
 }
 
+.btn-primary-outline {
+  color: rgb(239, 188, 160);
+  border-color: rgb(239, 188, 160);
+}
+
+.btn-primary-outline:hover {
+  color: rgb(229, 154, 179);
+  border-color: rgb(229, 154, 179);
+}
+
 #projects a {
   font-family: 'Roboto', sans-serif;
   color: rgb(239, 188, 160);
