@@ -67,6 +67,39 @@ hr{
   border-color: rgba(0, 0, 0, .1);
 }
 
+.imgoverlay {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0, 0,0);
+}
+
+.imgoverlay:hover .overlay {
+  opacity: .6;
+}
+
+.overlaytext {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(239, 188, 160);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 #aboutme p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -111,12 +144,12 @@ hr{
   font-size: 18px;
 }
 
-.btn-primary-outline {
+#projects .btn-primary-outline {
   color: rgb(239, 188, 160);
   border-color: rgb(239, 188, 160);
 }
 
-.btn-primary-outline:hover {
+#projects .btn-primary-outline:hover {
   color: rgb(229, 154, 179);
   border-color: rgb(229, 154, 179);
 }
@@ -133,6 +166,16 @@ hr{
 
 #projects .icons p {
   color: rgb(229, 154, 179);
+}
+
+#details .btn-primary-outline {
+  font-size: 22px;
+  border-color: rgb(0, 0, 0);
+}
+
+
+#certificates img {
+  max-width: 250px;
 }
 
 #timeline p {
